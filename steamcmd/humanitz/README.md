@@ -20,12 +20,12 @@ A zombie outbreak wiped out civilization as we know it. Hordes of zeeks gnawed t
 ## Setup
 
 ## Server Ports
-The Server needs 2Ports in a row. First port is free to use
+The Server needs 2 Ports. All port is free to use
 
 | Port  | default |
 |-------|---------|
 | Game  |7777     |
-| Query |27015
+| Query |27015 |
 
 
 ## Feel free to support my work:
