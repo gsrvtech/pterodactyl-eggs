@@ -15,7 +15,7 @@
         "ghcr.io\/goover\/steam:proton": "ghcr.io\/goover\/steam:proton"
     },
     "file_denylist": [],
-    "startup": "proton_run  .\/enshrouded_server.exe",
+    "startup": "proton run  .\/enshrouded_server.exe",
     "config": {
         "files": "{\r\n    \"enshrouded_server.json\": {\r\n        \"parser\": \"json\",\r\n        \"find\": {\r\n            \"name\": \"{{server.build.env.SRV_NAME}}\",\r\n            \"password\": \"{{server.build.env.SRV_PW}}\",\r\n            \"slotCount\": \"{{server.build.env.MAX_PLAYERS}}\",\r\n            \"gamePort\": \"{{server.build.default.port}}\",\r\n            \"queryPort\": \"{{server.build.env.QUERY_PORT}}\"\r\n        }\r\n    }\r\n}",
         "startup": "{\r\n    \"done\": \"[Session] 'HostOnline' (up)!\"\r\n}",
